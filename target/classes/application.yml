@@ -1,0 +1,17 @@
+spring.datasource.url: jdbc:mysql://localhost:3306/blogengine?serverTimezone=UTC
+spring.datasource.username: root
+spring.datasource.password: mmm333
+spring:
+jpa:
+hibernate:
+ddl-auto: create
+#show-sql: false
+
+blog:
+  title: Tverskoi
+  subtitle: Рассказы разработчиков
+  phone: +7 999 888-77-66
+  email: tverskoi2@mail.ru"
+  copyright: Tverskoi Oleg
+  copyrightFrom: 2020
+
